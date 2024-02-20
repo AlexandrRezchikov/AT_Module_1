@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UnitTesting Suite" parallel="classes" thread-count="4">
+    <test name="Unit Test">
+        <classes>
+            <class name="org.rntgroup.test.ArithmeticFunctionTests"/>
+            <class name="org.rntgroup.test.TrigonometricFunctionTest"/>
+            <class name="org.rntgroup.test.PowerFunctionTest"/>
+            <class name="org.rntgroup.test.SingDefinitionTest"/>
+        </classes>
+    </test>
+</suite>
