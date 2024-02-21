@@ -8,7 +8,7 @@ public class BaseTest {
 
     protected Calculator calculator;
 
-    @BeforeMethod
+    @BeforeMethod(groups = "smoke")
     public void setUp() {
         calculator = new Calculator();
     }
